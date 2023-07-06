@@ -155,7 +155,7 @@ function onDoubleClick(event) {
     ctx.restore();    // save와 retore 사이에 수정 사항이 저장되지 않음
   }
 }
-
+// 그림 저장하기
 function onSaveClick() {
   const url = canvas.toDataURL();
   const a = document.createElement("a");
