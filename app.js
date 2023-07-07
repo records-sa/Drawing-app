@@ -150,7 +150,7 @@ function onDoubleClick(event) {
   if (text !== "") {
     ctx.save();    // 이전 상태를 저장해주는 함수
     ctx.lineWidth = 1;
-    ctx.font = "68px serif";
+    ctx.font = "58px Segoe UI";
     ctx.fillText(text, event.offsetX, event.offsetY);
     ctx.restore();    // save와 retore 사이에 수정 사항이 저장되지 않음
   }
